@@ -9,3 +9,4 @@
 <!--? DOCKER DESKTOP  -->
 - Now you can see the containers in the {DOCKER DESKTOP APP} and in the containers menu in the side bar  , from there you can check your running apps with their 
   status and many other informations about them .
+- OR : you can type {$ docker images} in the terminal to see the list of images that we have pulled from different sources to our DOCKER  
