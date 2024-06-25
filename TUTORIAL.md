@@ -35,4 +35,3 @@ to RESTART a container that is running in docker : USE => `docker restart {__con
 <!--! DELETING A CONTAINER -->
 to DELETE a container , USE => `docker rm -f {__container-ID__}`
 
-k
