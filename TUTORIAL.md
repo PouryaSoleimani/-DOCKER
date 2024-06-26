@@ -58,3 +58,14 @@ and the variable that we have saved the database address in it is in the <.env> 
 
 ====> so lets connect the mongodb database with the address above to our front-end , we run this command : 
           `docker run -d -e MONGODB_URI=mongodb://localhost:27017/zoodcode-duck-spawner -p 3000:3000 duck-spawner-api`
+
+<!--? DOCKER NETWORKS  -->
+- to create a network => `docker network create {network name}`
+- to see the networks list => `docker network ls`
+- to remove a network => `docker network rm {network name}`
+
+//===>`docker run -d -e MONGODB_URI=mongodb://localhost:27017/zoodcode-duck-spawner -p 3000:3000 duck-spawner-api` :
+in this example , we can assign our network (by name ) instead of localhost and docker will automatically use it 
+like => `docker run -d -e MONHODB_URI=mongodb://myNetWorkName:27017/zoodcode-duck-spawner -p 3000:3000 duck-spawner-api`
+
+<!--& DOCKER COMPOSE -->
