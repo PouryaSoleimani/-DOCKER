@@ -43,4 +43,7 @@ to DELETE a container , USE => `docker rm -f {__container-ID__}`
 
 <!--! DOCKERIGNORE  -->
 - just like <GIT> , we have <dockerignore> in DOCKER , and we can say what kind of files to ignore in docker .
-- 
+
+<!--? READING LOGS  -->
+- docker logs -f "CONTAINER NAME"
+ 
