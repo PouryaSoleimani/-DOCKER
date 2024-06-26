@@ -47,3 +47,5 @@ to DELETE a container , USE => `docker rm -f {__container-ID__}`
 <!--? READING LOGS  -->
 - docker logs -f "CONTAINER NAME"
  
+<!--* RUNNING MONGODB IN DOCKER (RUNNING THE MONGODB IMAGE)  -->
+-`docker run -p 27017:27017 --name mongo mongo`
