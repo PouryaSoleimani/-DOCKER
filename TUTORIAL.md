@@ -48,4 +48,10 @@ to DELETE a container , USE => `docker rm -f {__container-ID__}`
 - docker logs -f "CONTAINER NAME"
  
 <!--* RUNNING MONGODB IN DOCKER (RUNNING THE MONGODB IMAGE)  -->
--`docker run -p 27017:27017 --name mongo mongo`
+-`docker run -d -p 27017:27017 --name mongo mongo`
+-> THE `-d` command in the code above is for `DETACH` the run , this causes the container to run in background 
+
+<!--* CONNECTING MONGODB DATABASE TO A DOCKER CONTAINER  -->
+- to connect a database like "MONGOBD" to our container , we must use `-e` command , this stands for <ENVIRONMENT>
+and the variable that we have saved the database address in it is in the <.env> file in out directory : 
+        
