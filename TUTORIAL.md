@@ -35,3 +35,7 @@ to RESTART a container that is running in docker : USE => `docker restart {__con
 to DELETE a container , USE => `docker rm -f {__container-ID__}`
 
 <!--& DOCKER IMAGES  -->
+<!--? DOCKER DOCKERFILES  -->
+<!--^ CLONE A REPO FROM GITHUB AND INIT DOCKER  -->
+- to make a <DOCKER FILE> in a project , we create a file name exactly => `Dockerfile` , Capitalize and no spaces
+- 
