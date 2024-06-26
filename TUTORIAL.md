@@ -54,4 +54,7 @@ to DELETE a container , USE => `docker rm -f {__container-ID__}`
 <!--* CONNECTING MONGODB DATABASE TO A DOCKER CONTAINER  -->
 - to connect a database like "MONGOBD" to our container , we must use `-e` command , this stands for <ENVIRONMENT>
 and the variable that we have saved the database address in it is in the <.env> file in out directory : 
-        
+        `MONGODB_URI= mongodb://localhost:27017/zoodcode-duck-spawner`
+
+====> so lets connect the mongodb database with the address above to our front-end , we run this command : 
+          `docker run -d -e MONGODB_URI=mongodb://localhost:27017/zoodcode-duck-spawner -p 3000:3000 duck-spawner-api`
