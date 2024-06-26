@@ -40,4 +40,7 @@ to DELETE a container , USE => `docker rm -f {__container-ID__}`
 - to make a <DOCKER FILE> in a project , we create a file name exactly => `Dockerfile` , Capitalize and no spaces
 - when we have a docker file in a directory , we can use the command `docker build .` in the directory , 
 - in that case , docker will start to build our project , as we have set the steps in the <Dockerfile> : like => FROM node:18-alpine | COPY . . | ...
+
+<!--! DOCKERIGNORE  -->
+- just like <GIT> , we have <dockerignore> in DOCKER , and we can say what kind of files to ignore in docker .
 - 
