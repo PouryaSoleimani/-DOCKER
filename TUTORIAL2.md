@@ -36,12 +36,12 @@
 
 <!--? DOCKER NETWORK   --------------------------------------------------------------------------------------------------------------------------------->
 <!--? DOCKET NETWORK TYPES  -->
+<!-- NONE -->
 <!-- HOST -->
 <!-- BRIDGE -->
 <!-- OVERLAY -->
 <!-- IPvLAN -->
 <!-- MACvLAN -->
-<!-- NONE -->
 <!--? DOCKER NETWORK COMMANDS  -->
 <!-- DOCKER NETWORK LIST -->
 <!-- DOCKER NETWORK CREATE --driver {NETWORK__TYPE} {NETWORK__NAME} -->
