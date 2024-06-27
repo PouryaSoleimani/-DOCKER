@@ -34,6 +34,15 @@ to RESTART a container that is running in docker : USE => `docker restart {__con
 <!--! DELETING A CONTAINER -->
 to DELETE a container , USE => `docker rm -f {__container-ID__}`
 
+<!-- DOCKER CONTAINER MORE COMMANDS -->
+<!--? DOCKER PAUSE || DOCKER UNPAUSE -->
+<!--? DOCKER TOP  -->
+<!--? DOCKER HISTORY -->
+<!--? DOCKER LOGS  -->
+<!--? DOCKER DIFF  -->
+<!--? DOCKER INSPECT  -->
+
+
 <!--& DOCKER IMAGES  -->
 <!--? DOCKER DOCKERFILES  -->
 <!--^ CLONE A REPO FROM GITHUB AND INIT DOCKER  -->
@@ -68,4 +77,3 @@ and the variable that we have saved the database address in it is in the <.env> 
 in this example , we can assign our network (by name ) instead of localhost and docker will automatically use it 
 like => `docker run -d -e MONHODB_URI=mongodb://myNetWorkName:27017/zoodcode-duck-spawner -p 3000:3000 duck-spawner-api`
 
-<!--& DOCKER COMPOSE -->
