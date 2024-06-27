@@ -35,14 +35,14 @@
 <!-- DOCKER EXPORT {CONTAINER__NAME} --> 
 
 <!--? DOCKER NETWORK   --------------------------------------------------------------------------------------------------------------------------------->
-<!--? DOCKET NETWORK TYPES  -->
+<!--? TYPES  -->
 <!-- NONE -->
 <!-- HOST -->
 <!-- BRIDGE -->
 <!-- OVERLAY -->
 <!-- IPvLAN -->
 <!-- MACvLAN -->
-<!--? DOCKER NETWORK COMMANDS  -->
+<!--? COMMANDS  -->
 <!-- DOCKER NETWORK LIST -->
 <!-- DOCKER NETWORK CREATE --driver {NETWORK__TYPE} {NETWORK__NAME} -->
 <!-- DOCKER NETWORK CONNECT {NETWORK__NAME} {CONTAINER__NAME} -->
@@ -51,3 +51,5 @@
 <!-- DOCKER NETWORK LS -->
 <!-- DOCKER NETWORK PRUNE -->
 <!-- DOCKER NETWORK RM {NETWORK__NAME} -->
+
+<!--* DOCKER VOLUME   --------------------------------------------------------------------------------------------------------------------------------->
