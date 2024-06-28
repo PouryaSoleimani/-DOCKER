@@ -53,3 +53,8 @@
 <!-- DOCKER NETWORK RM {NETWORK__NAME} -->
 
 <!--* DOCKER VOLUME   --------------------------------------------------------------------------------------------------------------------------------->
+<!-- DOCKER VOLUME CREATE {VOLUME__NAME}  -->
+<!-- DOCKER VOLUME INSPECT {VOLUME__NAME} -->
+<!-- DOCKER VOLUME LS {VOLUME__NAME} -->
+<!-- DOCKER VOLUME PRUNE {VOLUME__NAME} -->
+<!-- DOCKER VOLUME RM {VOLUME__NAME} -->
