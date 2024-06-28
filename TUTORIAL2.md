@@ -60,3 +60,22 @@
 <!-- DOCKER VOLUME RM {VOLUME__NAME} -->
 <!-- DOCKER RUN --MOUNT source=<VOLUME__NAME>,destination=<PATH__IN__CONTAINER> <IMAGE__NAME> -->
 <!-- DOCKER VOLUME PRUNE-->
+
+<!--^ DOCKER FILE  ---------------------------------------------------------------------------------------------------------------------------------->
+<!-- FROM -->
+<!-- LABEL -->
+<!-- COPY -->
+<!-- RUN -->
+<!-- ADD -->
+<!-- WORKDIR -->
+<!-- ENTRYPOINT -->
+<!-- CMD -->
+<!-- ENV -->
+<!-- VOLUME -->
+<!-- USER -->
+<!-- ARG -->
+<!-- ONBUILD -->
+<!-- STOPSIGNAL -->
+<!-- HEALTHCHECK -->
+<!-- SHELL -->
+<!-- EXPOSE -->
