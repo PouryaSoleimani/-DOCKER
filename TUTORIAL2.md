@@ -62,7 +62,7 @@
 <!-- DOCKER VOLUME PRUNE-->
 
 <!--^ DOCKER FILE  ----------------------------------------------------------------------------------------------------------------------------------->
-<!-- FROM -->
+<!-- FROM : STARTING DOCKER FILE FROM SPECIFIC IMAGE OR FILE ==> python:3.10-slim-buster -->
 <!-- LABEL -->
 <!-- COPY -->
 <!-- RUN -->
