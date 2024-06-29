@@ -68,8 +68,8 @@
 <!-- COPY : COPYING FILES FROM THE PC TO THE DOCKER ===> COPY requirements.txt /usr/src/app/requirements.txt || COPY ./core /usr/src/app/ -->
 <!-- ADD : SAME AS COPY , CAN ALSO WORK WITH .RAR FILES AND INTERNET URLS ==> ADD project.rar /usr/src/app/-->
 <!-- WORKDIR : SPECIFING THE ROOT FOLDER OF THE PROJECT  ==> WORKIDR /usr/src/app/ -->
+<!-- CMD : MAIN COMMAND THAT LAUNCHES WHEN THE CONTAINER IS RUNNING , WE CAN ALWAYS HAVE JUST ONE CMD ==> CMD ['python','main.py'] -->
 <!-- ENTRYPOINT -->
-<!-- CMD -->
 <!-- ENV -->
 <!-- VOLUME -->
 <!-- USER -->
