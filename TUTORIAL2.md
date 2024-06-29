@@ -63,11 +63,11 @@
 
 <!--^ DOCKER FILE  ----------------------------------------------------------------------------------------------------------------------------------->
 <!-- FROM : STARTING DOCKER FILE FROM SPECIFIC IMAGE OR FILE ==> python:3.10-slim-buster -->
-<!-- LABEL -->
-<!-- COPY -->
-<!-- RUN -->
-<!-- ADD -->
-<!-- WORKDIR -->
+<!-- LABEL : THE AUTHOR OF THE DOCKERFILE ==> maintainer="bigdeli.ali3@gmail.com" -->
+<!-- RUN : TO MAKE DOCKER RUN SOME PACKAGES ==> (SINGLE COMMAND) : RUN apt-get update || (MULTIPLE COMMAND) : RUN apt-get update && apt-get upgrade  -->
+<!-- COPY : COPYING FILES FROM THE PC TO THE DOCKER ===> COPY requirements.txt /usr/src/app/requirements.txt || COPY ./core /usr/src/app/ -->
+<!-- ADD : SAME AS COPY , CAN ALSO WORK WITH .RAR FILES AND INTERNET URLS ==> ADD project.rar /usr/src/app/-->
+<!-- WORKDIR : SPECIFING THE ROOT FOLDER OF THE PROJECT  ==> WORKIDR /usr/src/app/ -->
 <!-- ENTRYPOINT -->
 <!-- CMD -->
 <!-- ENV -->
